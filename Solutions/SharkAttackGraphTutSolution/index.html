@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Australian Shark Attacks</title>
+        <!-- Bulma CSS -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <style>
+        .chart{
+            width:400px;
+            
+        }
+    </style>
+    <body>
+        <!-- Your content goes here -->
+        <div class="container">
+            <h1 class="title">Australian Shark Attacks</h1>
+            <div class="columns">
+                <div class="column">
+                    <h2 class="subtitle">Shark Attack Count By State</h2>
+                    <div class="chart">
+                        <canvas id="stateChartArea"></canvas>
+                    </div>
+                </div>
+                <!-- second col -->
+                <div class="column">
+                    <h2 class="subtitle">Shark Attack Count By Gender</h2>
+                    <div class="chart">
+                        <canvas id="genderChartArea"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Bulma JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bulma@0.9.3/js/bulma.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
